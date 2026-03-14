@@ -1,17 +1,17 @@
 class Elisym < Formula
   desc "CLI agent runner for the elisym protocol"
   homepage "https://github.com/elisymprotocol/elisym-client"
-  version "v0.4.7"
+  version "v0.4.8"
   license "MIT"
 
   on_macos do
-    url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.7/elisym-aarch64-apple-darwin.tar.gz"
-    sha256 "de8dd24efa051db77965ed60b6370c8876a30a6ce427c058ae767008227e145b"
+    url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.8/elisym-aarch64-apple-darwin.tar.gz"
+    sha256 "7c68d6540dc610f5f604f797df8b636ac15805a38f7ba22886d683597e91ea6d"
   end
 
   on_linux do
-    url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.7/elisym-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "647e7b759868eb11a36ed7aa05aa655dfa11d4d62d9df9be9dc1307e050a3f06"
+    url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.4.8/elisym-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "4a6d790e4e81d1b0e60595e763b635ddbe7ae86e98bbc2671abaf5b505a1ef07"
   end
 
   def install
