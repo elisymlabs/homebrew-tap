@@ -1,28 +1,28 @@
 class Elisym < Formula
-  desc "CLI agent runner for the elisym protocol"
-  homepage "https://github.com/elisymprotocol/elisym-client"
-  version "v0.5.4"
+  desc "CLI agent runner for elisym"
+  homepage "https://github.com/elisymlabs/elisym-client"
+  version "v0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.5.4/elisym-aarch64-apple-darwin.tar.gz"
-      sha256 "3b7c86dbb3616871930bfe7f4ac15b59cac4232c480fa8fb3b8b671bd83dc43b"
+      url "https://github.com/elisymlabs/elisym-client/releases/download/v0.6.0/elisym-aarch64-apple-darwin.tar.gz"
+      sha256 "f0b887642425dbfe4f78a26cac23509fac6f7758f4e4a7b4bf6e9cb6383d8305"
     end
     on_intel do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.5.4/elisym-x86_64-apple-darwin.tar.gz"
-      sha256 "efa887ceb9960ccdbcbac0bb20f960c7d6a38603f5f3b056d5fe67adb86bdf1b"
+      url "https://github.com/elisymlabs/elisym-client/releases/download/v0.6.0/elisym-x86_64-apple-darwin.tar.gz"
+      sha256 "ebd910d3c9013206f5e28dd1d6e7b959b57c5680e5e5d7682e68f80ff3cd8d05"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.5.4/elisym-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2f79dc530c62de15511b1e58ad63bc00943040b3c84d0260a2a8f41360c7d219"
+      url "https://github.com/elisymlabs/elisym-client/releases/download/v0.6.0/elisym-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "56349d26a23ece2f914770a29c06db2e796407b8d58c224781f5f7307dd83f79"
     end
     on_intel do
-      url "https://github.com/elisymprotocol/elisym-client/releases/download/v0.5.4/elisym-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "152723fd14d157d7ebc268a35bf0e2e3b32b6cad61f347c9d93af5a5e19e9854"
+      url "https://github.com/elisymlabs/elisym-client/releases/download/v0.6.0/elisym-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "77eb8c8e7f451785f955686fe5b1e264438eea0e46c84a8d19f9d55ec09ee328"
     end
   end
 
